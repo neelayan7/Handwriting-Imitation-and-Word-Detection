@@ -11,10 +11,10 @@ Any version of Tensorflow > 1.0 should be good to run the EAST text detector.
 Resnet V1 50 provided by tensorflow slim: [slim resnet v1 50](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)
 
 Put **the east_icdar2015_resnet_v1_50_rbox** file in the EAST-master folder.
-Put the end-to-end.ipynb file inside the main folder.
+Put the final.ipynb file inside the main folder.
 
 ## Step-3(Run):
-- Run the end-to-end.ipynb file.
+- Run the final.ipynb file.
 
 Image with bounding boxes drawn on it and .txt files corresponding to each image(with coordinates) will be written to the output folder in the EAST-master folder.
 
