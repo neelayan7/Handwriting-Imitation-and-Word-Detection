@@ -13,6 +13,7 @@ Resnet V1 50 provided by tensorflow slim: [slim resnet v1 50](http://download.te
 Put **the east_icdar2015_resnet_v1_50_rbox** file in the EAST-master folder of the main folder.
 
 ## Step-3(Run):
+- Provide your handwritten image of 3-4 words(for best results) in the main folder with the name "input.png". A sample image is already provided. Open the demo.sh file and write the input text and output text.
 - Run the final.ipynb file.
 
 Image with bounding boxes drawn on it and .txt files corresponding to each image(with coordinates) will be written to the output folder in the EAST-master folder.
