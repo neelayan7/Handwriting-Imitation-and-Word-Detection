@@ -2,7 +2,7 @@
 ## Introduction
 I have basically merged two github repositories([Spatio Temporal Handwriting Imitation](https://github.com/M4rt1nM4yr/spatio-temporal_handwriting_imitation) and [EAST text detector](https://github.com/argman/EAST)) and turned them into an end-to-end handwriting cloning and word detection model.
 ## Step-1(Installation):
-Check the requirements.txt file in both the folders and install if any thing is missing.
+Unzip. Check the requirements.txt file in both the folders and install if any thing is missing.
 Any version of Tensorflow > 1.0 should be good to run the EAST text detector.
 ## Step-2(Downloads):
 - **Handwriting Imitation**: Before running the pipeline the trained model checkpoints have to be copied into the folder checkpoints from https://drive.google.com/open?id=11fc8b7QTSqL8oIjs7ddGutlRKEL8NBqh. 
