@@ -15,7 +15,8 @@ Put **the east_icdar2015_resnet_v1_50_rbox** file in the EAST-master folder.
 ## Step-3(Run):
 - **Handwriting Imitation**: Provide your handwritten image of 3-4 words(for best results) in the folder with the name "input.png". A sample image is already provided. Open the demo.sh file and write the input text and output text.Run the model by running the demo.sh bash file(`chmod +x demo.sh` and `bash demo.sh`). Save the figure in the folder where all the input images for text detection is there.
 
-- **EAST text detector**: run `python eval.py --test_data_path=/tmp/images --gpu_list=0 --checkpoint_path=east_icdar2015_resnet_v1_50_rbox/ --output_dir=/tmp/output/`
+- **EAST text detector**: run 
+`python eval.py --test_data_path=/tmp/images --gpu_list=0 --checkpoint_path=east_icdar2015_resnet_v1_50_rbox/ --output_dir=/tmp/output/`
 
 The images with bounding boxes drawn on it and .txt files corresponding to each image(with coordinates) will be written to the output directory.
 
