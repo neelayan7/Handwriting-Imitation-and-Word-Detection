@@ -10,7 +10,7 @@ Any version of Tensorflow > 1.0 should be good to run the EAST text detector.
 - **EAST text detector**: Models trained on ICDAR 2013 (training set) + ICDAR 2015 (training set): [BaiduYun link](https://pan.baidu.com/s/1jHWDrYQ) [GoogleDrive](https://drive.google.com/file/d/0B3APw5BZJ67ETHNPaU9xUkVoV0U/view)
 Resnet V1 50 provided by tensorflow slim: [slim resnet v1 50](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)
 
-Put **the east_icdar2015_resnet_v1_50_rbox** file in the EAST-master folder.
+Put **the east_icdar2015_resnet_v1_50_rbox** file in the EAST-master folder of the main folder.
 
 ## Step-3(Run):
 - Run the final.ipynb file.
